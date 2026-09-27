@@ -173,7 +173,7 @@ def _create_pollster_and_sponsor_lines(poll: dict) -> list:
 def _send_notification() -> None:
     if text := open('data/text.txt', encoding='utf8').read().strip():
         post(
-            'https://ntfy.sh/pollercoaster-' + environ['NTFY_SECRET'],
+            'https://ntfy.sh/polls-' + environ['NTFY_SECRET'],
             data=text.encode('utf-8'),
             headers={'Title': 'Poll Alert', 'Tags': 'loudspeaker'},
         )
