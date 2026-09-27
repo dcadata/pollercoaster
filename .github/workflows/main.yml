@@ -1,0 +1,27 @@
+name: Pollercoaster
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5,35 0-2,12-22 * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - run: pip3 install -r requirements.txt
+      - run: python task.py
+        env:
+          NTFY_SECRET: ${{ secrets.NTFY_SECRET }}
+      - name: Commit and push if changed
+        run: |-
+          git config user.name "Actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add ./data/
+          timestamp=$(date -u)
+          git commit -m "Latest: ${timestamp}" || exit 0
+          git push
