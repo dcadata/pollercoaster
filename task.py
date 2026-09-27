@@ -179,7 +179,7 @@ def _send_notification() -> None:
         )
 
         with open('data/text.txt', 'w', encoding='utf8') as f:
-            f.write(text)
+            f.write('')
     return
 
 
