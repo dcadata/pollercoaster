@@ -1,6 +1,8 @@
 import json
+from os import environ
+from time import sleep
 
-from requests import Session
+from requests import Session, post
 
 
 class ApiUrl:
@@ -166,3 +168,40 @@ def _create_pollster_and_sponsor_lines(poll: dict) -> list:
             sections.append('$ ' + poll['sponsorCandidate'])
 
     return sections
+
+
+def _send_notification() -> None:
+    if text := open('data/text.txt', encoding='utf8').read().strip():
+        post(
+            'https://ntfy.sh/pollercoaster-' + environ['NTFY_SECRET'],
+            data=text.encode('utf-8'),
+            headers={'Title': 'Poll Alert', 'Tags': 'loudspeaker'},
+        )
+
+        with open('data/text.txt', 'w', encoding='utf8') as f:
+            f.write(text)
+    return
+
+
+def _check_for_polls() -> None:
+    session = Session()
+
+    mi_sen = PollsPinger(session, ApiUrl.MI_SEN)
+    mi_gov = PollsPinger(session, ApiUrl.MI_GOV)
+
+    mi_sen.run()
+    sleep(2)
+    mi_gov.run()
+
+    session.close()
+    return
+
+
+def main() -> None:
+    _check_for_polls()
+    _send_notification()
+    return
+
+
+if __name__ == '__main__':
+    main()
