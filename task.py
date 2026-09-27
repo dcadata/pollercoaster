@@ -147,7 +147,7 @@ def _create_poll_leader_line(question: dict) -> str:
 
     dem_lead = dem_pct - rep_pct
     leader_party = 'DEM' if dem_lead > 0 else ('REP' if dem_lead < 0 else 'TIE')
-    leader_surname = dem_surname if dem_lead > 0 else (rep_surname if dem_lead < 0 else '')
+    leader_surname = dem_surname if dem_lead > 0 else (rep_surname if dem_lead < 0 else 'TIE')
     return f'=> {PartyInd.replace(leader_party)} {leader_surname} +{abs(round(dem_lead))}'
 
 
