@@ -41,7 +41,7 @@ class Candidates:
         return cls.NAME_MAPPER[full_name]
 
 
-class PollsPinger:
+class Pollercoaster:
     def __init__(self, session: Session, api_url: str) -> None:
         self._session = session
         self._api_url = api_url
@@ -186,8 +186,8 @@ def _send_notification() -> None:
 def _check_for_polls() -> None:
     session = Session()
 
-    mi_sen = PollsPinger(session, ApiUrl.MI_SEN)
-    mi_gov = PollsPinger(session, ApiUrl.MI_GOV)
+    mi_sen = Pollercoaster(session, ApiUrl.MI_SEN)
+    mi_gov = Pollercoaster(session, ApiUrl.MI_GOV)
 
     mi_sen.run()
     sleep(2)
