@@ -181,6 +181,14 @@ def _send_notification() -> None:
 
         with open('data/text.txt', 'w', encoding='utf8') as f:
             f.write('')
+
+    else:
+        post(
+            'https://ntfy.sh/polls-silent-' + environ['NTFY_SECRET'],
+            data='Poll Check'.encode('utf-8'),
+            headers={'Tags': 'heavy_check_mark', 'Priority': '1'},
+        )
+
     return
 
 
