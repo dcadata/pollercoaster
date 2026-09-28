@@ -1,6 +1,5 @@
 import datetime
 import json
-import subprocess
 from os import environ
 from time import sleep
 
@@ -199,21 +198,6 @@ def _check_for_polls() -> None:
     return
 
 
-def _commit_and_push_if_changed() -> None:
-    commands = """
-git config user.name "Actions"
-git config user.email "actions@users.noreply.github.com"
-git add ./data/
-timestamp=$(date -u)
-git commit -m "Latest: ${timestamp}" || exit 0
-git push
-""".strip().splitlines()
-
-    for command in commands:
-        subprocess.run(command)
-    return
-
-
 def main() -> None:
     start_time = datetime.datetime.now()
 
@@ -221,7 +205,6 @@ def main() -> None:
         last_run_time = datetime.datetime.now()
         _check_for_polls()
         _send_notification()
-        _commit_and_push_if_changed()
 
         while (datetime.datetime.now() - last_run_time).total_seconds() < (60 * 60):
             sleep(1)
