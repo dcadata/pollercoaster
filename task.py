@@ -1,3 +1,4 @@
+import datetime
 import json
 from os import environ
 from time import sleep
@@ -198,8 +199,16 @@ def _check_for_polls() -> None:
 
 
 def main() -> None:
-    _check_for_polls()
-    _send_notification()
+    start_time = datetime.datetime.now()
+
+    while (datetime.datetime.now() - start_time).total_seconds() < (6 * 60 * 59):  # 6 hour limit
+        last_run_time = datetime.datetime.now()
+        _check_for_polls()
+        _send_notification()
+
+        while (datetime.datetime.now() - last_run_time).total_seconds() < (60 * 60):
+            sleep(1)
+
     return
 
 
