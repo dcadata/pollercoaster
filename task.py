@@ -215,6 +215,11 @@ git push
 
 
 def main() -> None:
+    with open('data/log.txt', 'w', encoding='utf8') as f:
+        f.write('TEST')
+    _commit_and_push_if_changed()
+    return
+
     start_time = datetime.datetime.now()
 
     while (datetime.datetime.now() - start_time).total_seconds() < (6 * 60 * 59):  # 6 hour limit
