@@ -3,7 +3,7 @@ name: Pollercoaster
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 0-2,12-22 * * *'
+    - cron: '5 * * * *'
 
 jobs:
   scheduled:
