@@ -1,4 +1,22 @@
 {
+  "7f60d59d-6820-4372-bd51-1e43f71d8674": [
+    "Beacon Research/Shaw & Company Research",
+    "$ Fox News",
+    "9/24 - 9/28",
+    "1203 RV\n\ud83d\udd35 El-Sayed 51%\n\ud83d\udd34 Rogers 48%\n=> \ud83d\udd35 El-Sayed +3",
+    "1028 LV\n\ud83d\udd34 Rogers 49%\n\ud83d\udd35 El-Sayed 50%\n=> \ud83d\udd35 El-Sayed +1"
+  ],
+  "25345253-7ec6-454f-a2e7-d87a38e5680e": [
+    "Marist University",
+    "9/24 - 9/27",
+    "1235 RV\n\ud83d\udd34 Rogers 44%\n\ud83d\udd35 El-Sayed 51%\n=> \ud83d\udd35 El-Sayed +7"
+  ],
+  "eb8dcba9-321d-4335-b659-9e9a33a55f92": [
+    "Cygnal/Beacon Research",
+    "$ Michigan Enjoyer",
+    "9/18 - 9/21",
+    "600 LV\n\ud83d\udd34 Rogers 40%\n\ud83d\udd35 El-Sayed 45%\n=> \ud83d\udd35 El-Sayed +5"
+  ],
   "a73499f4-78b4-49de-b9c1-b6b6c4d9ab35": [
     "GBAO",
     "$ Senate Majority PAC",
@@ -12,24 +30,5 @@
     "9/22 - 9/24",
     "725 RV\n\ud83d\udd34 Rogers 41%\n\ud83d\udd35 El-Sayed 45.4%\n=> \ud83d\udd35 El-Sayed +4",
     "678 LV\n\ud83d\udd34 Rogers 42.1%\n\ud83d\udd35 El-Sayed 46.7%\n=> \ud83d\udd35 El-Sayed +5"
-  ],
-  "7145345e-115a-4e15-b102-5006131f5230": [
-    "Torchlight Strategies",
-    "$ Common Sense for America PAC",
-    "\ud83d\udd34REP-aligned",
-    "9/15 - 9/19",
-    "643 LV\n\ud83d\udd34 Rogers 44.4%\n\ud83d\udd35 El-Sayed 43.1%\n=> \ud83d\udd34 Rogers +1"
-  ],
-  "4d0532bf-99b1-4496-b653-1afe23ce13f2": [
-    "The New York Times/Siena University",
-    "9/15 - 9/22",
-    "605 LV\n\ud83d\udd34 Rogers 44.5%\n\ud83d\udd35 El-Sayed 49.45%\n=> \ud83d\udd35 El-Sayed +5"
-  ],
-  "fdd3fa5f-0d00-4570-8595-206a2c44b1c5": [
-    "co/efficient",
-    "9/21 - 9/23",
-    "843 LV\n",
-    "843 LV\n\ud83d\udd35 El-Sayed 50%\n\ud83d\udd34 Rogers 50%\n=> \ud83d\udfe1 TIE +0",
-    "843 LV\n\ud83d\udd35 El-Sayed 45%\n\ud83d\udd34 Rogers 45%\n=> \ud83d\udfe1 TIE +0"
   ]
 }
