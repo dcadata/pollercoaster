@@ -1,2 +1,4 @@
 __pycache__/
 .idea/
+sample_data/
+NTFY_SECRET.txt
