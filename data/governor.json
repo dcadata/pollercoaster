@@ -1,4 +1,9 @@
 {
+  "56a26c06-7fb0-4b33-90dc-7f8ea906e654": [
+    "YouGov",
+    "9/22 - 10/4",
+    "3949 LV\n\ud83d\udd34 James 45%\n\ud83d\udd35 Benson 48%\n=> \ud83d\udd35 Benson +3"
+  ],
   "7f60d59d-6820-4372-bd51-1e43f71d8674": [
     "Beacon Research/Shaw & Company Research",
     "$ Fox News",
@@ -21,10 +26,5 @@
     "The New York Times/Siena University",
     "9/15 - 9/22",
     "605 LV\n\ud83d\udd34 James 42.82%\n\ud83d\udd35 Benson 48.45%\n=> \ud83d\udd35 Benson +6"
-  ],
-  "fdd3fa5f-0d00-4570-8595-206a2c44b1c5": [
-    "co/efficient",
-    "9/21 - 9/23",
-    "843 LV\n\ud83d\udd34 James 44%\n\ud83d\udd35 Benson 47%\n=> \ud83d\udd35 Benson +3"
   ]
 }
