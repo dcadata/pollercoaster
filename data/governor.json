@@ -1,4 +1,11 @@
 {
+  "6baacd72-4dcd-4aae-9584-f31921e4b22f": [
+    "Guidant Polling and Strategy",
+    "$ Public First Action",
+    "\ud83d\udfe1OTH-aligned",
+    "9/20 - 9/27",
+    "800 LV\n\ud83d\udd35 Benson 50%\n\ud83d\udd34 James 45%\n=> \ud83d\udd35 Benson +5"
+  ],
   "56a26c06-7fb0-4b33-90dc-7f8ea906e654": [
     "YouGov",
     "9/22 - 10/4",
@@ -20,11 +27,5 @@
     "Marist University",
     "9/24 - 9/27",
     "1235 RV\n\ud83d\udd34 James 41%\n\ud83d\udd35 Benson 53%\n=> \ud83d\udd35 Benson +12"
-  ],
-  "eb8dcba9-321d-4335-b659-9e9a33a55f92": [
-    "Cygnal/Beacon Research",
-    "$ Michigan Enjoyer",
-    "9/18 - 9/21",
-    "600 LV\n\ud83d\udd34 James 38%\n\ud83d\udd35 Benson 45%\n=> \ud83d\udd35 Benson +7"
   ]
 }

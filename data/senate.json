@@ -1,4 +1,12 @@
 {
+  "6baacd72-4dcd-4aae-9584-f31921e4b22f": [
+    "Guidant Polling and Strategy",
+    "$ Public First Action",
+    "\ud83d\udfe1OTH-aligned",
+    "9/20 - 9/27",
+    "800 LV\n\ud83d\udd34 Rogers 45%\n\ud83d\udd35 El-Sayed 49%\n=> \ud83d\udd35 El-Sayed +4",
+    "800 LV\n\ud83d\udd35 El-Sayed 48%\n\ud83d\udd34 Rogers 43%\n=> \ud83d\udd35 El-Sayed +5"
+  ],
   "ee904e5a-0b44-496a-85ab-d8c215a658d6": [
     "Quantus Insights",
     "10/5 - 10/6",
@@ -19,12 +27,5 @@
     "\ud83d\udd34REP-aligned",
     "9/28 - 9/30",
     "1085 LV\n\ud83d\udd34 Rogers 45.1%\n\ud83d\udd35 El-Sayed 46.9%\n=> \ud83d\udd35 El-Sayed +2"
-  ],
-  "7f60d59d-6820-4372-bd51-1e43f71d8674": [
-    "Beacon Research/Shaw & Company Research",
-    "$ Fox News",
-    "9/24 - 9/28",
-    "1203 RV\n\ud83d\udd35 El-Sayed 51%\n\ud83d\udd34 Rogers 48%\n=> \ud83d\udd35 El-Sayed +3",
-    "1028 LV\n\ud83d\udd34 Rogers 49%\n\ud83d\udd35 El-Sayed 50%\n=> \ud83d\udd35 El-Sayed +1"
   ]
 }
