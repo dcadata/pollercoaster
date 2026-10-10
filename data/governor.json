@@ -1,4 +1,9 @@
 {
+  "d9ee6c99-192a-4426-98c9-e940dfc09afc": [
+    "Wedgewood Polls",
+    "10/8 - 10/9",
+    "607 LV\n\ud83d\udd34 James 45%\n\ud83d\udd35 Benson 55%\n=> \ud83d\udd35 Benson +10"
+  ],
   "ab83cf47-b0a2-422e-a221-5c9e87c8ef63": [
     "Z to A Research",
     "$ Rust Belt Rising",
@@ -22,12 +27,5 @@
     "Mitchell Research & Communications",
     "10/1 - 10/1",
     "682 LV\n\ud83d\udd34 James 39%\n\ud83d\udd35 Benson 46%\n=> \ud83d\udd35 Benson +7"
-  ],
-  "7f60d59d-6820-4372-bd51-1e43f71d8674": [
-    "Beacon Research/Shaw & Company Research",
-    "$ Fox News",
-    "9/24 - 9/28",
-    "1203 RV\n\ud83d\udd34 James 44%\n\ud83d\udd35 Benson 55%\n=> \ud83d\udd35 Benson +11",
-    "1028 LV\n\ud83d\udd34 James 45%\n\ud83d\udd35 Benson 54%\n=> \ud83d\udd35 Benson +9"
   ]
 }

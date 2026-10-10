@@ -1,4 +1,9 @@
 {
+  "d9ee6c99-192a-4426-98c9-e940dfc09afc": [
+    "Wedgewood Polls",
+    "10/8 - 10/9",
+    "607 LV\n\ud83d\udd34 Rogers 47%\n\ud83d\udd35 El-Sayed 53%\n=> \ud83d\udd35 El-Sayed +6"
+  ],
   "ab83cf47-b0a2-422e-a221-5c9e87c8ef63": [
     "Z to A Research",
     "$ Rust Belt Rising",
@@ -23,10 +28,5 @@
     "YouGov",
     "9/22 - 10/4",
     "3947 LV\n\ud83d\udd34 Rogers 48%\n\ud83d\udd35 El-Sayed 49%\n=> \ud83d\udd35 El-Sayed +1"
-  ],
-  "2dc1e826-8970-4611-8cfa-14268c7d1bd4": [
-    "Mitchell Research & Communications",
-    "10/1 - 10/1",
-    "682 LV\n\ud83d\udd34 Rogers 41.4%\n\ud83d\udd35 El-Sayed 45.6%\n=> \ud83d\udd35 El-Sayed +4"
   ]
 }
