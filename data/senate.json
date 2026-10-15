@@ -1,8 +1,22 @@
 {
+  "32ba7df0-57e8-439c-94d9-ce6b91b53a57": [
+    "The Tyson Group",
+    "$ Alliance for a Better Future",
+    "\ud83d\udd34REP-aligned",
+    "9/24 - 9/27",
+    "600 LV\n\ud83d\udd34 Rogers 43%\n\ud83d\udd35 El-Sayed 44%\n=> \ud83d\udd35 El-Sayed +1"
+  ],
+  "6791fae3-af46-4a7f-aef8-12f4e9e732c7": [
+    "The Tyson Group",
+    "$ Alliance for a Better Future",
+    "\ud83d\udd34REP-aligned",
+    "10/6 - 10/8",
+    "600 LV\n\ud83d\udd35 El-Sayed 44%\n\ud83d\udd34 Rogers 46%\n=> \ud83d\udd34 Rogers +2"
+  ],
   "e4682f6c-ef99-473c-a540-54dbcf9d775f": [
     "InsiderAdvantage",
     "10/9 - 10/10",
-    "1200 LV\n\ud83d\udd34 Rogers 46%\n\ud83d\udd35 El-Sayed 48%\n=> \ud83d\udd35 El-Sayed +2"
+    "1200 LV\n\ud83d\udd34 Rogers 45.5%\n\ud83d\udd35 El-Sayed 47.8%\n=> \ud83d\udd35 El-Sayed +2"
   ],
   "d9ee6c99-192a-4426-98c9-e940dfc09afc": [
     "Wedgewood Polls",
@@ -15,18 +29,5 @@
     "\ud83d\udd35DEM-aligned",
     "9/28 - 10/1",
     "483 LV\n\ud83d\udd34 Rogers 42%\n\ud83d\udd35 El-Sayed 49%\n=> \ud83d\udd35 El-Sayed +7"
-  ],
-  "6baacd72-4dcd-4aae-9584-f31921e4b22f": [
-    "Guidant Polling and Strategy",
-    "$ Public First Action",
-    "\ud83d\udfe1OTH-aligned",
-    "9/20 - 9/27",
-    "800 LV\n\ud83d\udd34 Rogers 45%\n\ud83d\udd35 El-Sayed 49%\n=> \ud83d\udd35 El-Sayed +4",
-    "800 LV\n\ud83d\udd35 El-Sayed 48%\n\ud83d\udd34 Rogers 43%\n=> \ud83d\udd35 El-Sayed +5"
-  ],
-  "ee904e5a-0b44-496a-85ab-d8c215a658d6": [
-    "Quantus Insights",
-    "10/5 - 10/6",
-    "744 LV\n\ud83d\udd34 Rogers 47.2%\n\ud83d\udd35 El-Sayed 48.4%\n=> \ud83d\udd35 El-Sayed +1"
   ]
 }
